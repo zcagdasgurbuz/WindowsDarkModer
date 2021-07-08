@@ -3,8 +3,8 @@
 
 These batch files are solutions for difficult-to-find Windows's dark mode settings. Running the batch files will switch the dark mode.
 
-darkmode.bat will - will switch the dark mode for apps and theme  
-darkmodeonlyapps.bat - will switch the dark mode for apps.
+"darkmode.bat" switches the dark mode for apps and theme  
+"darkmodeonlyapps.bat" switches the dark mode for only apps.
 
 Also, the zip file contains .exe files for convenience because .exe files do not show the terminal window at all.
 
