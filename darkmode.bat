@@ -6,6 +6,6 @@ if %value% == 0x0 (SET decision=1) else (SET decision=0)
 
 REM this will make the apps use dark mode
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /f /v "AppsUseLightTheme" /t REG_DWORD /d %decision%
-REM thiw will also switch windows theme
+REM this will also switch windows theme
 REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /f /v "SystemUsesLightTheme" /t REG_DWORD /d %decision%
 
